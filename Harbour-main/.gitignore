@@ -1,0 +1,15 @@
+# Figma Make source export is a design reference, not part of the Harbour app.
+/figma-make-export/
+
+# Local frontend build and dependencies
+/client/node_modules/
+/client/dist/
+/harbour/client/node_modules/
+/harbour/client/dist/
+/harbour/server/node_modules/
+
+# Local environment and editor files
+/harbour/server/.env
+*.local
+.DS_Store
+Thumbs.db

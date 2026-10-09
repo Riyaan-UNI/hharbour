@@ -1,0 +1,13 @@
+{
+  "name": "harbour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harbour - navigation layer for non-local students in Hong Kong",
+  "scripts": {
+    "setup": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n server,client -c blue,green \"npm --prefix server run dev\" \"npm --prefix client run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
